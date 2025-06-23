@@ -1,6 +1,6 @@
 {
 	"$schema": "node_modules/wrangler/config-schema.json",
-	"name": "hello-containers",
+	"name": "test-containers",
 	"main": "src/index.ts",
 	"compatibility_date": "2025-05-23",
 	"compatibility_flags": [
@@ -14,7 +14,7 @@
 			"class_name": "HiContainer",
 			"image": "./Dockerfile",
 			"max_instances": 10,
-			"name": "hello-containers"
+			"name": "test-containers"
 		}
 	],
 	"durable_objects": {
